@@ -21,12 +21,12 @@ client.on("message", (msg) => {
       
       
       
-        if (msg.content == 'Boa noite') {
+        /* if (msg.content == 'Boa noite') {
             msg.reply(`Boa noite ${msg.author.username}`);
         }
         else {
         msg.reply("Não conheço essa mensagem ainda!");
-        } 
+        }  */
     } 
 
     console.log(`Author: ${msg.author.username}: ${msg.content}`);
