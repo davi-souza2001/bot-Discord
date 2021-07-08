@@ -18,15 +18,7 @@ client.on("message", (msg) => {
         } else {
             msg.reply("Este comando não existe!");
         }
-      
-      
-      
-        /* if (msg.content == 'Boa noite') {
-            msg.reply(`Boa noite ${msg.author.username}`);
-        }
-        else {
-        msg.reply("Não conheço essa mensagem ainda!");
-        }  */
+        
     } 
 
     console.log(`Author: ${msg.author.username}: ${msg.content}`);
